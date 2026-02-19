@@ -22,6 +22,7 @@ tofu --version
 
 # 1. Устанавливаем snapd 
 sudo apt update
+
 sudo apt install -y snapd
 
 # 2. Устанавливаем Terraform через snap (классический канал — свежие версии)
