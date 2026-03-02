@@ -1,6 +1,5 @@
 # k8s
 
-
 # 1. Добавляем официальный GPG-ключ OpenTofu
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://get.opentofu.org/opentofu.gpg | sudo tee /etc/apt/keyrings/opentofu.gpg >/dev/null
