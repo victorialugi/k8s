@@ -47,14 +47,3 @@ echo \
 
 # 5. Обновляем список пакетов ещё раз
 sudo apt update
-
-# 6. Устанавливаем Docker + docker-compose-plugin + containerd
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-
-# 7. Запускаем и включаем автозапуск
-sudo systemctl enable --now docker
-
-# 8. Проверяем
-docker --version
-docker compose version
-
