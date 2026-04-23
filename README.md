@@ -58,7 +58,3 @@ sudo systemctl enable --now docker
 docker --version
 docker compose version
 
-# 9. (очень рекомендуется) Добавить своего пользователя в группу docker
-#    (чтобы не писать sudo каждый раз)
-sudo usermod -aG docker $USER
-# после этого нужно выйти и зайти
